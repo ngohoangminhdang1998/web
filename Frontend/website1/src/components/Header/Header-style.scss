@@ -1,0 +1,32 @@
+.Header-website{
+    .header-block{
+        background-color: #2c1e16;
+        height: 40px;
+        ul{
+            list-style:none;
+        }
+    
+        ul > li {
+            display: inline-block;
+            padding: 10px 25px 10px 0;
+            font-size: 14px;
+            color: #fff;
+        }
+        .image-your-cart{
+            border-radius: 50%;
+            background: #fff;
+            width: 100px;
+            margin: 10px;
+            padding:0 5px 0 5px;
+            color: #000;
+        }
+        .sign-in-button{
+            color: white;
+            background-color: transparent;
+            border: none;
+        }
+    }
+    .header-logo{
+        height: 100px;
+    }
+}
