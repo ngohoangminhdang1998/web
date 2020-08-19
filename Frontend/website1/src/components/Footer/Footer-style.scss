@@ -21,7 +21,37 @@
         ul li a{
             color: #b4a79e;
         }
-        
+        hr{
+            width: 1000px;
+            height: 1px;
+            background-color: white;
+        }
     }
-
+    .Footer-asr{
+        padding: 10px 200px 10px 200px;
+        .align-logo{
+            padding-top: 35px;
+        }
+    }
+    .Footer-cookie{
+        padding-left: 30px;
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                display: inline-block;
+                padding-right: 10px;
+                padding-left: 10px;
+                border-right: #b4a79e solid 1px;
+                a{
+                    color: #65564f;
+                    font-size: 14px;
+                }
+            }
+            li:last-child{
+                border-right: none;
+            }
+        }
+    }
 }
