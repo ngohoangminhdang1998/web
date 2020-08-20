@@ -29,4 +29,26 @@
     .header-logo{
         height: 100px;
     }
+    .navbar-router{
+        list-style: none;
+        padding: 40px 0px 0px 0px;
+        li{
+            display: inline-block;
+            padding-right: 10px;
+        a{
+            color: #2c1e16;
+            font-size:20px;
+            font-weight: 400;
+        }
+        }
+    }
+    .search-button{
+        margin: 30px 0 30px 0;  
+        background-color: #8a0411;
+        color: #fff;
+        border: none;
+        width: 200px;
+        height: 50px;
+        padding: 10px 20px 10px 20px; 
+    }
 }

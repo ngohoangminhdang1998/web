@@ -89,8 +89,12 @@ class Footer extends Component {
                                 <li><a href="">Guarantee and Cancellation Policy</a></li>
                             </ul>
                             <p><i className="far fa-copyright"></i> 2020 The Ascott Limited. ALl rights reserved</p>
+                            <ul>
+                                <li><a href="">ICP证: 沪ICP备12018090号-13</a></li>
+                                <li><a href="">沪公网备31010102006539号</a></li>
+                            </ul>
                         </div>
-                        <div className="col-md-1 col-md-offset-2">
+                        <div className="col-md-1 offset-md-2">
                             <img src="https://www.the-ascott.com/content/dam/tal/common/assets/logos/logo-capitaland.svg" width="100px" height="80px"/>
                         </div>
                     </div>
