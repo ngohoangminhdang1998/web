@@ -7,6 +7,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import Homepage from '../Homepage/Homepage';
 class Header extends Component {
     render() {
         return (
@@ -43,7 +44,7 @@ class Header extends Component {
                             <img src="https://www.the-ascott.com/content/dam/tal/common/assets/logos/brands/ascott/logo-ascott-en.svg" width="100px" height="100px" />
                         </div>
                         <div className="col-5">
-                            <Router>
+                       
                                 <div>
                                     <nav>
                                         <ul className="navbar-router">
@@ -72,7 +73,7 @@ class Header extends Component {
             renders the first one that matches the current URL. */}
                                     <Switch>
                                         <Route path="/homepage">
-
+                                          <Homepage/>  
                                         </Route>
                                         <Route path="/contact">
 
@@ -82,7 +83,7 @@ class Header extends Component {
                                         </Route>
                                     </Switch>
                                 </div>
-                            </Router>
+                    
                         </div>
                         <div className="col-3">
                             <button className="search-button">Search & Book</button>
