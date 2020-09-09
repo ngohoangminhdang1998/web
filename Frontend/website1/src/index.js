@@ -6,10 +6,12 @@ import * as serviceWorker from './serviceWorker';
 import "bootstrap/dist/css/bootstrap.css";
 import 'font-awesome/css/font-awesome.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import {Provider} from 'react-redux';
+import store1 from './store.js'; 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store1}>
+ <App />
+  </Provider>,
   document.getElementById('root')
 );
 

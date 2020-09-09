@@ -8,10 +8,13 @@ import {
     Link
 } from "react-router-dom";
 import Homepage from '../Homepage/Homepage';
+import Contact from '../Contact/Contact';
 class Header extends Component {
     render() {
         return (
+            <Router>
             <div className="Header-website">
+              
                 <div className="container-fluid header-block">
                     <div className="row">
                         <div className="col-7 header-left">
@@ -44,7 +47,6 @@ class Header extends Component {
                             <img src="https://www.the-ascott.com/content/dam/tal/common/assets/logos/brands/ascott/logo-ascott-en.svg" width="100px" height="100px" />
                         </div>
                         <div className="col-5">
-                       
                                 <div>
                                     <nav>
                                         <ul className="navbar-router">
@@ -67,21 +69,7 @@ class Header extends Component {
                                                 <Link to="/about-us">About us</Link>
                                             </li>
                                         </ul>
-                                    </nav>
-
-                                    {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-                                    <Switch>
-                                        <Route path="/homepage">
-                                          <Homepage/>  
-                                        </Route>
-                                        <Route path="/contact">
-
-                                        </Route>
-                                        <Route path="/help">
-
-                                        </Route>
-                                    </Switch>
+                                    </nav>     
                                 </div>
                     
                         </div>
@@ -90,7 +78,19 @@ class Header extends Component {
                         </div>
                     </div>
                 </div>
+                <hr/>
+                <Switch>
+          <Route path="/homepage">
+            <Homepage/>
+          </Route>
+          <Route path="/contact">
+           <Contact/>
+          </Route>
+          <Route path="/">
+          </Route>
+        </Switch>    
             </div>
+            </Router>
         )
     }
 }

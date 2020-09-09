@@ -9,18 +9,35 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { connect } from 'react-redux';
+import Contact from './components/Contact/Contact';
 class App extends React.Component{
   render(){
     return(
      <div className="">
-            <Router>
+      {/* <Router> */}
       <Header/>
-      <Main/>
+     
       <Footer/>
-      </Router>
+      {/* </Router> */}
      </div>    
     )
   }
 }
+const mapStateToProps = (state, ownProps) => {
+  return {
+    num: state.num
+  }
+}
+// this.props.num
+const mapDispatchToProps = (dispatch, ownProps) => {
+  return {
+    ADD_DATA: (getitem) => {
+      dispatch({type: 'ADD_DATA',getitem})
+    }
+  }
+}
 
-export default App;
+//this.props.ADD_DATA()
+export default connect(mapStateToProps, mapDispatchToProps)(App)
+
