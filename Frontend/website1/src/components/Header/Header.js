@@ -10,6 +10,16 @@ import {
 import Homepage from '../Homepage/Homepage';
 import Contact from '../Contact/Contact';
 class Header extends Component {
+    constructor(props){
+    super(props);
+        this.state ={
+
+        }
+    }
+
+    showNav=()=>{
+
+    }
     render() {
         return (
             <Router>
@@ -42,9 +52,10 @@ class Header extends Component {
                     </div>
                 </div>
                 <div className="container-fluid header-logo">
+                    <button className="button-click" onclick={()=>this.showNav()}>click</button>
                     <div className="row">
                         <div className="col-4">
-                            <img src="https://www.the-ascott.com/content/dam/tal/common/assets/logos/brands/ascott/logo-ascott-en.svg" width="100px" height="100px" />
+                            <img src="https://www.the-ascott.com/content/dam/tal/common/assets/logos/brands/ascott/logo-ascott-en.svg" width="50px" height="50px" />
                         </div>
                         <div className="col-5">
                                 <div>

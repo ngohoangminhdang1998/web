@@ -9,14 +9,14 @@ class Footer extends Component {
                         <h1>Ascott</h1>
                         <p>A member of capitaland</p>
                     </div>
-                    <div className="text-white">
+                    <div className="text-white footer-website-text-banner">
                         <h1>About us</h1>
                         <p>The Ascott Limited is a Singapore company that has grown to be one of the leading international lodging owner-operators. Ascott's portfolio spans more than 180 cities across over 30 countries in Asia Pacific, Central Asia, Europe, the Middle East, Africa and the USA. Ascott has about 69,000 operating units and over 48,000 units under development, making a total of about 117,000 units in over 700 properties.
                         Find out more about The Ascott Limited</p>
                     </div>
                 </div>
                 <div className="Footer-website-information container-fluid text-white">
-                    <div className="container d-flex justify-content-between pt-2 pb-2">
+                    <div className="container d-flex justify-content-around pr-1">
                         <div className="FIND A RESIDENCE">
                             <h6>FIND A RESIDENCE</h6>
                             <ul> <li><a href="">By Property</a></li>
@@ -61,7 +61,7 @@ class Footer extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="Footer-asr d-flex justify-content-between">
+                    <div className="Footer-asr d-flex justify-content-around">
                         <a href="" className="pb-0"><img src="https://www.the-ascott.com/content/dam/tal/media/images/common-ascott/brand-logos/logo-asr-white.png.transform/ascott-lowres/image.png" height="26px" width="150px"/></a>
                         <a href=""><img src="https://www.the-ascott.com/content/dam/tal/common/assets/logos/brands/ascott/logo-ascott-alt-en.png.transform/ascott-lowres/image.png" height="80px" width="100px"/></a>
                         <a href="" className="align-logo"><img src="https://www.the-ascott.com/content/dam/tal/common/assets/logos/brands/citadines/logo-citadines-white-alt-en.png.transform/ascott-lowres/image.png" height="40px" width="100px"/></a>

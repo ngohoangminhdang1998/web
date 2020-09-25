@@ -1,7 +1,7 @@
 .Header-website{
     .header-block{
         background-color: #2c1e16;
-        height: 40px;
+        height: auto;
         ul{
             list-style:none;
         }
@@ -27,7 +27,7 @@
         }
     }
     .header-logo{
-        height: 100px;
+        height: auto;
     }
     .navbar-router{
         list-style: none;
@@ -47,7 +47,7 @@
         background-color: #8a0411;
         color: #fff;
         border: none;
-        width: 200px;
+        width: auto;
         height: 50px;
         padding: 10px 20px 10px 20px; 
     }
